@@ -1,0 +1,140 @@
+
+* {
+  margin: 0;
+  padding: 0;
+
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+input,
+textarea {
+  box-sizing: border-box;
+}
+nav {
+    margin-top: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 20px;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ff5733;
+}
+a{
+    text-decoration: none;
+    color: #2F2F2F;
+    font-size: xx-large;
+}
+.container{
+   
+    margin: auto;
+    max-width: 90vw;
+    text-align: center;
+    padding-top: 10px;
+    transition: transform .5s;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 1.2;
+  width: 100%;
+  min-height: 100vh;
+
+}
+
+.content {
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+  background: #fff;
+  padding: 40px;
+  border-radius: 5px;
+  background-color: #daa1ff;
+  box-shadow: 4px 4px 8px 0 rgba(34, 60, 80, 0.2);
+}
+.right-side {
+  width: 75%;
+  margin-left: 75px;
+}
+.details {
+  margin-bottom: 15px;
+  text-align: center;
+}
+.details i {
+  font-size: 25px;
+  color: #3e2093; 
+  margin-bottom: 10px;
+}
+.topic-text {
+  font-size: 23px;
+  font-weight: 600;
+  color: #0a0a0a;
+  margin-bottom: 10px;
+}
+.right-side p {
+  margin-bottom: 20px;
+}
+.input-box {
+  height: 50px; 
+  width: 100%; 
+  margin-bottom: 20px; 
+}
+.input-box input,
+.input-box textarea {
+  height: 100%; 
+  width: 100%; 
+  border: none; 
+  border-radius: 5px; 
+  background: #f0f1f8; 
+  padding: 0 20px; 
+}
+.input-box textarea {
+  resize: none; 
+  padding: 20px;
+  font-family: "Roboto", sans-serif;
+}
+.message-box {
+  min-height: 110px;
+}
+.button {
+  display: inline-block;
+}
+.button input[type="button"] {
+  color: #fff;
+  font-size: 18px;
+  background: #218838;
+  outline: none;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 7px;
+  transition: 0.2s; 
+}
+.button input[type="button"]:hover {
+  background: #218838;
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Оформить заказ</title>
+    <link rel="stylesheet" href="/css/checkout.css">
+</head>
+<body>
+    <div class="container">
+    <header>
+        <div class="title">
+            <a href="/">RAZOR</a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="/">Главная</a></li>
+                <li><a href="/about.html">О нас</a></li>
+                <li><a href="/login.html">Войти</a></li>
+                <li><a href="/register.html">Регистрация</a></li>
+                <li><a href="/reset.html">FAQ</a></li>
+            </ul>
+        </nav>
+        <div class="icon-cart">
+          
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 15a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm0 0h8m-8 0-1-4m9 4a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm-9-4h10l2-7H3m2 7L3 4m0 0-.792-3H1"/>
+            </svg>
+            <span></span>
+        </div>
+    </header>
+    <main>
+        <h1>Оформить заказ</h1>
+        <form id="checkout-form">
+            <label for="name">Имя:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="address">Адрес:</label>
+            <input type="text" id="address" name="address" required>
+            <label for="phone">Телефон:</label>
+            <input type="text" id="phone" name="phone" required>
+            <button type="submit">Отправить заказ</button>
+        </form>
+    </main>
+</div>
+    <script src="index.js"></script>
+</body>
+</html>
